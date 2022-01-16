@@ -16,9 +16,9 @@
 
         <style>
             body {
-                font-family: 'Monospace';
+                font-family: 'Courier New', monospace;
                 background-size: 100%;
-                background-color: #96CEB4;
+                background: linear-gradient(to bottom, #FFAD60 0%,#D9534F 100%);
                 min-height: 100%;    
             }
         </style>
@@ -28,37 +28,42 @@
             @if (Route::has('login'))
                 <div >
                     <!--<img src = "todolist.jpg">-->
-                    <img src="https://media.baamboozle.com/uploads/images/291632/1619760072_114659_gif-url.gif" width="300" height="300">
+                    <img src="https://media.baamboozle.com/uploads/images/291632/1619760072_114659_gif-url.gif" width="280" height="280" style="margin-left:40px;">
                     <br>
                     <br>
-                    <br>
+                    
                     
                     @auth
                         <a href="{{ url('/dashboard') }}" style="
                         background:#1B1717;
-                        color:#EEEBDD;
+                        color:#D9534F;
                         border-radius:10px;                      
                         margin: 20px;
-                        padding: 20px;
-                        padding-left: 20px;
+                        padding-left:10px;
+                        padding-right:10px;
+                        padding-top: 5px;
+                        padding-bottom:5px;
                         margin-right: 20px;
                         font-weight: 800;
                         font-size:32px;
-                        text-shadow: 2px 2px 10px #EEEBDD;
+                        text-shadow: 1px 1px 1px #FFFFFF;
                         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
                         Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" 
                         style="
                         background:#1B1717;
-                        color:#EEEBDD;
+                        color:#D9534F;
                         border-radius:10px;                      
                         margin: 20px;
-                        padding: 20px
+                        padding-left:10px;
+                        padding-right:10px;
+                        padding-top: 5px;
+                        padding-bottom:5px;
                         margin-right: 20px;
                         font-weight: 800;
                         font-size:32px;
-                        text-shadow: 2px 2px 10px #EEEBDD;
+                        text-shadow: 1px 1px 1px #FFFFFF;
                         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
                         Login</a>
 
@@ -66,14 +71,17 @@
                             <a href="{{ route('register') }}"
                         style="
                         background:#1B1717;
-                        color:#EEEBDD;
+                        color:#D9534F;
                         border-radius:10px;
                         margin: 20px;
-                        padding: 20px
+                        padding-left:10px;
+                        padding-right:10px;
+                        padding-top: 5px;
+                        padding-bottom:5px;
                         margin-right: 20px;
                         font-weight: 800;
                         font-size:32px;
-                        text-shadow: 2px 2px 10px #EEEBDD;
+                        text-shadow: 1px 1px 1px #FFFFFF;
                         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">Register</a>
                         @endif
                     @endif
