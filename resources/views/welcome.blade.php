@@ -16,9 +16,9 @@
 
         <style>
             body {
-                font-family: 'Nunito';
+                font-family: 'Monospace';
                 background-size: 100%;
-                background-image: url("https://st.depositphotos.com/1482106/1380/i/600/depositphotos_13809554-stock-photo-beige-suede-texture-background.jpg");
+                background-color: #96CEB4;
                 min-height: 100%;    
             }
         </style>
