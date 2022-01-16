@@ -39,7 +39,8 @@
                         color:#EEEBDD;
                         border-radius:10px;                      
                         margin: 20px;
-                        padding: 20px
+                        padding: 20px;
+                        padding-left: 20px;
                         margin-right: 20px;
                         font-weight: 800;
                         font-size:32px;
