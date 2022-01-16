@@ -7,7 +7,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                    <img src="https://media.baamboozle.com/uploads/images/291632/1619760072_114659_gif-url.gif" width="50" height="50">
                     </a>
                 </div>
 
