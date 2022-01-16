@@ -1,13 +1,18 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+    <h2 style="font-family: 'Courier New', monospace;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size:36px;
+        ">
             {{ __('Edit Task') }}
         </h2>
     </x-slot>
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-5">
+            <div style="background-color:#FFEEAD;" class=" overflow-hidden shadow-xl sm:rounded-lg p-5">
             
 
                 <form method="POST" action="/task/{{ $task->id }}">
@@ -21,7 +26,24 @@
 
 
                     <div class="form-group">
-                        <button type="submit" name="update" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Update task</button>
+                        <button type="submit" name="update" style="
+                        background:#1B1717;
+                        color:#D9534F;
+                        border-radius:10px;
+                        
+                        margin-left:10px;
+                        margin-bottom:10px;
+
+                        font-family: 'Courier New', monospace;
+                        padding-left:10px;
+                        padding-right:10px;
+                        padding-top: 5px;
+                        padding-bottom:5px;
+                        
+                        font-weight: 600;
+                        font-size:20px;
+                        text-shadow: 1px 1px 1px #FFFFFF;
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">Update task</button>
                     </div>
                 {{ csrf_field() }}
                 </form>

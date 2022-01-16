@@ -1,6 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 style="font-family: 'Courier New', monospace;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size:36px;
+        ">
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
@@ -9,10 +14,34 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-5">
                 <div class="flex">
-                    <div class="flex-auto text-2xl mb-4">Tasks List</div>
+                    <div style="font-family: 'Courier New', monospace;
+                        margin-top: 5px;
+                        margin-left: 10px;
+                        margin-bottom:10px;
+                        font-weight: 1000;
+                        font-size:28px;
+                        ">Tasks List</div>
                     
                     <div class="flex-auto text-right mt-2">
-                        <a href="/task" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add new Task</a>
+                        <a href="/task" style="
+                        background:#FFEEAD;
+                        color:#D9534F;
+                        border-radius:10px;
+                        margin-top: 20px;
+                        margin-left:10px;
+                        margin-bottom:10px;
+
+                        font-family: 'Courier New', monospace;
+                        padding-left:10px;
+                        padding-right:10px;
+                        padding-top: 5px;
+                        padding-bottom:5px;
+                        
+                        font-weight: 600;
+                        font-size:20px;
+                        text-shadow: 1px 1px 1px #FFFFFF;
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">Add new Task</a>
+                        
                     </div>
                 </div>
                 <table class="w-full text-md rounded mb-4">
