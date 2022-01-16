@@ -54,8 +54,9 @@
                         color:#EEEBDD;
                         border-radius:10px;                      
                         margin: 20px;
-                        padding: 20px
                         margin-right: 20px;
+                        padding-left:10px;
+                        padding-right:10px;
                         font-weight: 800;
                         font-size:32px;
                         text-shadow: 2px 2px 10px #EEEBDD;
@@ -69,8 +70,9 @@
                         color:#EEEBDD;
                         border-radius:10px;
                         margin: 20px;
-                        padding: 20px
                         margin-right: 20px;
+                        padding-left:10px;
+                        padding-right:10px;
                         font-weight: 800;
                         font-size:32px;
                         text-shadow: 2px 2px 10px #EEEBDD;

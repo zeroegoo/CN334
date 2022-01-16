@@ -1,12 +1,11 @@
-<x-guest-layout>
-    <x-jet-authentication-card>
-        <x-slot name="logo">
-            <x-jet-authentication-card-logo />
-        </x-slot>
-
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
-        </div>
+<body style="background-size: 100%;
+            background-image: url('https://st.depositphotos.com/1482106/1380/i/600/depositphotos_13809554-stock-photo-beige-suede-texture-background.jpg');">
+<div style="
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100%;">
+        <a href="http://127.0.0.1:8000/"><img src="https://media.baamboozle.com/uploads/images/291632/1619760072_114659_gif-url.gif" style="margin:15px" width="300" height="300"></a>
 
         @if (session('status'))
             <div class="mb-4 font-medium text-sm text-green-600">
@@ -14,21 +13,38 @@
             </div>
         @endif
 
-        <x-jet-validation-errors class="mb-4" />
-
-        <form method="POST" action="{{ route('password.email') }}">
+        <form style = "background-color: #4CAF50;
+                       border-radius: 5px;
+                       margin: auto;
+                       margin-bottom: 30px;
+                       width: 30%;
+                       padding-bottom:15px;
+                       padding-top:1px;" method="POST" action="{{ route('password.email') }}">
             @csrf
-
+            <h4 style = "text-align: left;
+                             margin-left: 10%;
+                             margin-right: 10%;">Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.</h4>
             <div class="block">
-                <x-jet-label value="{{ __('Email') }}" />
-                <x-jet-input class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+            <h3 style = "text-align: left;
+                         margin-left: 10%;">Email</h3>
+                <input style="width: 80%;
+                             height: 40px;
+                             border-radius: 5px;
+                             margin-bottom: 10px;" type="email" name="email" :value="old('email')" required autofocus />
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <x-jet-button>
-                    {{ __('Email Password Reset Link') }}
-                </x-jet-button>
+                
+                <button style = "background-color: #4CAF50;
+                                border-radius: 5px;
+                                color: white;
+                                padding: 5px;
+                                text-align: center;
+                                margin-left : 10px;
+                                display: inline-block;
+                                font-size: 16px; " 
+                        type = "submit">Email Password Reset Link
             </div>
         </form>
-    </x-jet-authentication-card>
-</x-guest-layout>
+        </div>
+        </body>
