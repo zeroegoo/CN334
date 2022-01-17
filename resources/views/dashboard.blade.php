@@ -49,13 +49,13 @@
                     <tr class="border-b">
                         <th style="
                         text-align: left;          
-                        font-family: 'Courier New', monospace;
+                        font-family: 'sans-serif', monospace;
                         font-size:24px;
                         padding-left: 20px;">
                         Task</th>
                         <th style="
                         text-align: left;          
-                        font-family: 'Courier New', monospace;
+                        font-family: 'sans-serif', monospace;
                         font-size:24px;
                         padding-left: 20px;">Actions</th>
                         <th></th>
