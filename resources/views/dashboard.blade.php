@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 style="font-family: 'Courier New', monospace;
+        <h2 style="font-family: 'sans-serif', monospace;
         margin-top: 10px;
         margin-left: 10px;
         font-weight: 600;
@@ -14,7 +14,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-5">
                 <div class="flex">
-                    <div style="font-family: 'Courier New', monospace;
+                    <div style="font-family: 'sans-serif', monospace;
                         margin-top: 5px;
                         margin-left: 10px;
                         margin-bottom:10px;
@@ -49,13 +49,13 @@
                     <tr class="border-b">
                         <th style="
                         text-align: left;          
-                        font-family: 'Courier New', monospace;
+                        font-family: 'sans-serif', monospace;
                         font-size:24px;
                         padding-left: 20px;">
                         Task</th>
                         <th style="
                         text-align: left;          
-                        font-family: 'Courier New', monospace;
+                        font-family: 'sans-serif', monospace;
                         font-size:24px;
                         padding-left: 20px;">Actions</th>
                         <th></th>
