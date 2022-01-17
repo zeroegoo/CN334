@@ -1,5 +1,6 @@
 <body style="background-size: 100%;
             background: linear-gradient(to bottom, #FFAD60 0%,#D9534F 100%);">
+<title>Laravel</title>
 <div style="
             justify-content: center;
             align-items: center;
