@@ -1,5 +1,5 @@
 <?php
-// login test
+// login testing
 namespace Tests\Feature;
 
 use App\Models\User;
